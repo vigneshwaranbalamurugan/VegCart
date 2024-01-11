@@ -1,0 +1,321 @@
+<html>
+<head>
+
+<title>ORDER</title>
+<style>
+ h1{font-family:Lucida Calligraphy;
+	font-size:30px;
+	color:white;
+	
+	
+	}
+	h1{background-color:#F7A008;
+	height:7%;
+	width:17%;
+	}
+.bg{background-image:url("C:/Users/Rajeshwaran/Downloads/istockphoto-1203599952-1024x1024.jpg");
+    }
+ ul {
+  list-style-type: none;
+  margin: 3 px;
+  padding: 5px 20px;
+  overflow: hidden;
+  background-color:lightblue;
+}
+
+li {
+  float: left;
+  width:230px;
+  font-family:Snap ITC;
+  border-right:2px solid white;
+  text-align:center;
+}
+ul li:hover{background-color:#4CE7DB;
+             padding:5px 20px;
+            } 
+
+li:last-child {
+  border-right: none;
+}
+
+
+.active {
+  background-color:#4CE7DB;
+  width:190px;
+   padding: 5px 5px;
+  
+}
+.hii{position:sticky;
+  top:0;}
+.heading{
+color:#4CE7DB;
+}
+ul li ul li
+         {
+          display:none;
+		  background-color:none;
+          }
+
+ul li:hover ul li
+          {
+          	display:block;
+           }
+		   ul li a
+{
+	text-decoration:none;
+           display:block;
+}
+
+
+
+
+
+.container{
+  width: 90%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.d-flex{
+  display: flex;
+  flex-direction: row;
+  background: #f6f6f6;
+  border-radius: 0 0 5px 5px;
+  padding: 25px;
+}
+form{
+  flex: 4;
+}
+.Yorder{
+  flex: 2;
+}
+
+h2{
+  margin: 0;
+  padding-left: 15px; 
+}
+.required{
+  color: red;
+}
+label, table{
+  display: block;
+  margin: 15px;
+}
+.title{
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #5195A8), color-stop(100, #70EAFF));
+  background: -moz-linear-gradient(top left, #5195A8 0%, #70EAFF 100%);
+  background: -ms-linear-gradient(top left, #5195A8 0%, #70EAFF 100%);
+  background: -o-linear-gradient(top left, #5195A8 0%, #70EAFF 100%);
+  background: linear-gradient(to bottom right, #5195A8 0%, #70EAFF 100%);
+  border-radius:5px 5px 0 0 ;
+  padding: 20px;
+  color: #f6f6f6;
+}
+label>span{
+  float: left;
+  width: 25%;
+  margin-top: 10px;
+  padding-right: 1px;
+}
+input[type="text"], input[type="tel"], input[type="email"], select
+{
+  width: 70%;
+  height: 30px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dadada;
+  color: #888;
+}
+select{
+  width: 72%;
+  height: 45px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.Yorder{
+  margin-top: 15px;
+  height: 600px;
+  padding: 20px;
+  border: 1px solid #dadada;
+}
+table{
+  margin: 0;
+  padding: 0;
+}
+th{
+  border-bottom: 1px solid #dadada;
+  padding: 10px 0;
+}
+tr>td:nth-child(1){
+  text-align: left;
+  color: #2d2d2a;
+}
+tr>td:nth-child(2){
+  text-align: right;
+  color: #52ad9c;
+}
+td{
+  border-bottom: 1px solid #dadada;
+  padding: 25px 25px 25px 0;
+}
+
+p{
+  display: block;
+  color: #888;
+  margin: 0;
+  padding-left: 25px;
+}
+.Yorder>div{
+  padding: 15px 0; 
+}
+
+button{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color:green;
+ 
+}
+button:hover{
+  cursor: pointer;
+  background: #428a7d;
+}
+  h3{color:white;}
+</style>
+</style>
+</head>
+<body bgcolor="#2c0614">
+<div class="bg">
+<br>
+<center><h1>VEG KART</h1></center>
+<br>
+<br>
+</div>
+<div class="hii"><ul>
+<a href="psd project.html"><li><b>HOME</b></li></a>
+<a href=""><li><b>MENU CARD</b></a>
+<ul>
+<a href="fruitsa.html"><li><b>FRUITS</b></li></a>
+<a href="vegetables.html"><li>VEGITABLES</li></a>
+<a href="juices.html"><li>JUICES</li></a>
+</ul></li>
+<li class="active"><b>FOR ORDER</b></li>
+<a href="contact.html"><li><b>CONTACT US</b></li></a>
+<a href="homepage.html"><li><b>LOG OUT</b></li></a>
+</ul></div>
+<br>
+<br>
+<div class="container">
+  <div class="title">
+      <h2>Product Order Form</h2>
+  </div>
+<div class="d-flex">
+  <form action="">
+    <label>
+      <span>First Name <span class="required">*</span></span>
+      <input type="text" name="fname">
+    </label>
+    <label>
+      <span>Last Name <span class="required">*</span></span>
+      <input type="text" name="lname">
+    </label>
+    
+    <label>
+      <span>State<span class="required">*</span></span>
+      <select name="selection">
+        <option value="select">Select a state...</option>
+        <option value="AFG">Tamil Nadu</option>
+        <option value="ALA">Karnataka</option>
+        <option value="ALB">Kerala</option>
+        <option value="DZA">Andhra Pradesh</option>
+        <option value="ASM">Telangana</option>
+       
+      </select>
+    </label>
+    <label>
+      <span>Street Address <span class="required">*</span></span>
+      <input type="text" name="houseadd" placeholder="House number and street name" required>
+    </label>
+    <label>
+      <span>&nbsp;</span>
+      <input type="text" name="apartment" placeholder="Apartment, suite, unit etc. (optional)">
+    </label>
+    <label>
+      <span>Town / City <span class="required">*</span></span>
+      <input type="text" name="city"> 
+    </label>
+    <label>
+      <span>State / County <span class="required">*</span></span>
+      <input type="text" name="city"> 
+    </label>
+    <label>
+      <span>Postcode / ZIP <span class="required">*</span></span>
+      <input type="number" name="city"> 
+    </label>
+    <label>
+      <span>Phone <span class="required">*</span></span>
+      <input type="tel" name="city"> 
+    </label>
+    <label>
+      <span>Email Address <span class="required">*</span></span>
+      <input type="email" name="city"> 
+    </label>
+	<label>
+	<span>Enter Product<span class="required">*</span></span>
+	<input type="text" name="city" id=">
+	</label>
+	<label>
+	<span>Enter Quantity<span class="required">*</span></span>
+	<input type="number" name="city">
+	</label>
+	<label>
+	<span></span>
+	<span ><button onclick="calculate()">Calculate </button></span><span class="required">*</span>
+	</label>
+	<script>
+	function calculate(){
+	    var A=document.getElementById(
+	}
+	</script>
+  </form>
+  <div class="Yorder">
+    <table>
+      <tr>
+        <th colspan="2">Your order</th>
+      </tr>
+      <tr>
+        <td id="pro"></td>
+        <td id="price"></td>
+      </tr>
+      <tr>
+        <td>Subtotal</td>
+        <td>$00.00</td>
+      </tr>
+      <tr>
+        <td>Shipping</td>
+        <td>Free shipping</td>
+      </tr>
+    </table><br>
+    <div>
+      <input type="radio" name="dbt" value="dbt" checked> Direct Bank Transfer
+    </div>
+    <p>
+        Make your payment directly into our bank account.
+    </p>
+    <div>
+      <input type="radio" name="dbt" value="cd"> Cash on Delivery
+    </div>
+    <div>
+      <input type="radio" name="dbt" value="cd"> Paypal <span>
+      <img src="https://www.logolynx.com/images/logolynx/c3/c36093ca9fb6c250f74d319550acac4d.jpeg" alt="" width="50">
+      </span>
+    </div>
+   <button type="button"><b>Place Order</b></button>
+  </div>
+ </div>
+</div>
+<center><h3>&copy Vigneshwaran.B since 2005</h3></center>
+</body>
+</html>
